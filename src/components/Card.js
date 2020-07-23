@@ -33,7 +33,7 @@ const Card = () => {
           <MdBusiness /> {company}
         </p>
         <p>
-          <MdLocationOn /> {location}
+          <MdLocationOn /> {location || 'earth'}
         </p>
         <a rel='noopener noreferrer' target='_blank' href={`${blog}`}>
           <MdLink />
